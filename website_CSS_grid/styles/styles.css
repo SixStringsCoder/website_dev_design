@@ -1,0 +1,64 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+
+/* HEADER */
+header {
+  border: 1px solid red;
+}
+
+.logo {
+  width: 20%;
+  border-radius: 100%;
+}
+
+
+/* CONTENT */
+main {
+  padding: 10px 0;
+  background-color: orange;
+
+}
+
+.proj-container {
+  margin: 10%;
+  padding: 100px;
+  border: 1px solid blue;
+  background-color: white;
+}
+
+.project1 {
+
+}
+
+.project2 {
+
+}
+
+.blog {
+
+}
+
+.project3 {
+
+}
+
+.project4 {
+
+}
+
+
+/* FOOTER */
+#site-footer {
+  text-align: center;
+}
