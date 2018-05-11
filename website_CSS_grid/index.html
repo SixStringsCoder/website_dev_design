@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./styles/styles.css" type="text/css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Roboto|Roboto+Condensed" rel="stylesheet">
 
     <title>Steve's CSS Grid Site</title>
   </head>
@@ -13,7 +17,7 @@
     <header class="site-header" role="banner" aria-label="site-navigation">
       <img id="logo" src="./images/SteveHanlon_md.jpg" alt="logo" />
       <h1 id="name">Steve Hanlon</h1>
-      <h3 id="skills">Web Dev & Data Analysis</h3>
+      <h3 id="skills">Web Dev <span class="ampersand">&</span> Data Analysis</h3>
       <div id="menu">&#9776;</div>
       <nav class="site-navigation" role="navigation">
       </nav>
@@ -21,22 +25,72 @@
 
     <main class="main-container" role="main">
       <section class="proj-container project1" role="region">
-        <h3>Project 1</h3>
+        <h3 class="project-heading">Project 1 Title</h3>
+        <h4 class="specs">Frameworks and languages</h4>
+        <p clas="project-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque mi id nibh sollicitudin, non finibus ante cursus. Nam dictum, eros vitae imperdiet dignissim, nisi dolor finibus quam, vel dignissim tellus ipsum ut sem. Sed bibendum velit eu risus consectetur auctor eu nec ex. Integer pretium nunc finibus bibendum suscipit. Nunc vulputate bibendum quam, sit amet tincidunt sapien mollis ut. Duis tempus sollicitudin leo quis tincidunt. Aliquam erat volutpat.
+        </p>
+        <a href="#"><button class="btn git-link">Code at Github</button></a>
       </section>
-      <section class="proj-container project2" role="region">
-        <h3>Project 2</h3>
+      <section class="proj-container project1" role="region">
+        <h3 class="project-heading">Project 2 Title</h3>
+        <h4 class="specs">Frameworks and languages</h4>
+        <p clas="project-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque mi id nibh sollicitudin, non finibus ante cursus. Nam dictum, eros vitae imperdiet dignissim, nisi dolor finibus quam, vel dignissim tellus ipsum ut sem. Sed bibendum velit eu risus consectetur auctor eu nec ex. Integer pretium nunc finibus bibendum suscipit. Nunc vulputate bibendum quam, sit amet tincidunt sapien mollis ut. Duis tempus sollicitudin leo quis tincidunt. Aliquam erat volutpat.
+        </p>
+        <a href="#"><button class="btn git-link">Code at Github</button></a>
       </section>
+
       <section class="proj-container blog" role="region">
-        <h3>Blog</h3>
+        <h3 class="project-heading">Blog</h3>
+        <article>
+          <h4 class="blog-entry-title">Why We Should Choose ES6</h4>
+          <p class="blog-paragraphs">
+            Maecenas lobortis eros ut porttitor rutrum. Fusce eget dictum mauris, et blandit ligula. Proin magna dui, porta at arcu lacinia, vehicula lobortis magna. Curabitur molestie sollicitudin est, at consectetur urna facilisis et. Quisque in leo malesuada nisl sollicitudin commodo. Nulla vitae consequat ex, at dictum mauris. Aliquam sollicitudin gravida augue, in auctor ligula consequat eget. Nunc mattis turpis vitae dolor sollicitudin, sit amet sollicitudin massa sagittis. In scelerisque elementum erat eu faucibus. Sed consectetur, ipsum eget congue dictum, eros nunc ultricies purus, nec vestibulum elit ante non ex. Donec auctor tristique felis vitae porta. Aenean finibus neque eu magna finibus accumsan. Vestibulum pellentesque turpis nec placerat tempus. Vivamus vel sapien iaculis, posuere leo sit amet, dictum lorem. Donec dignissim varius est eu iaculis. Praesent in dolor lacus. Proin eu ornare ipsum. Donec vulputate risus ac justo malesuada bibendum. Fusce ornare lacus id leo aliquet fermentum. Aliquam venenatis, felis vitae congue rutrum, eros neque auctor velit, ut dictum risus libero a quam. Mauris eu ex est. Cras lobortis nulla vitae lacus ultrices dictum. Nulla non convallis velit. Sed dapibus erat dolor, a lobortis odio ornare vel. Sed ac pharetra metus, eget pulvinar metus. Mauris sit amet finibus magna, vitae rhoncus nulla. Aliquam mi dolor, auctor sagittis pretium et, pretium et lorem. Proin diam elit, interdum eget placerat nec, condimentum ut ex. Duis rutrum, sapien at eleifend ultrices, eros purus varius sem, in pretium quam purus vel turpis.
+          </p>
+          <p class="diamonds">&#9830; &#9830; &#9830;</p>
+        </article>
+
+        <article>
+          <h4 class="blog-entry-title">Why Coding Is the Job of the Present and Future</h4>
+          <p class="blog-paragraphs">
+            Maecenas lobortis eros ut porttitor rutrum. Fusce eget dictum mauris, et blandit ligula. Proin magna dui, porta at arcu lacinia, vehicula lobortis magna. Curabitur molestie sollicitudin est, at consectetur urna facilisis et. Quisque in leo malesuada nisl sollicitudin commodo. Nulla vitae consequat ex, at dictum mauris. Aliquam sollicitudin gravida augue, in auctor ligula consequat eget. Nunc mattis turpis vitae dolor sollicitudin, sit amet sollicitudin massa sagittis. In scelerisque elementum erat eu faucibus. Sed consectetur, ipsum eget congue dictum, eros nunc ultricies purus, nec vestibulum elit ante non ex. Donec auctor tristique felis vitae porta. Aenean finibus neque eu magna finibus accumsan. Vestibulum pellentesque turpis nec placerat tempus. Vivamus vel sapien iaculis, posuere leo sit amet, dictum lorem. Donec dignissim varius est eu iaculis. Praesent in dolor lacus. Proin eu ornare ipsum. Donec vulputate risus ac justo malesuada bibendum. Fusce ornare lacus id leo aliquet fermentum. Aliquam venenatis, felis vitae congue rutrum, eros neque auctor velit, ut dictum risus libero a quam. Mauris eu ex est. Cras lobortis nulla vitae lacus ultrices dictum. Nulla non convallis velit. Sed dapibus erat dolor, a lobortis odio ornare vel. Sed ac pharetra metus, eget pulvinar metus. Mauris sit amet finibus magna, vitae rhoncus nulla. Aliquam mi dolor, auctor sagittis pretium et, pretium et lorem. Proin diam elit, interdum eget placerat nec, condimentum ut ex. Duis rutrum, sapien at eleifend ultrices, eros purus varius sem, in pretium quam purus vel turpis.
+          </p>
+          <p class="diamonds">&#9830; &#9830; &#9830;</p>
+        </article>
+
+        <article>
+          <h4 class="blog-entry-title">Are Superheros Necessary?</h4>
+          <p class="blog-paragraphs">
+            Maecenas lobortis eros ut porttitor rutrum. Fusce eget dictum mauris, et blandit ligula. Proin magna dui, porta at arcu lacinia, vehicula lobortis magna. Curabitur molestie sollicitudin est, at consectetur urna facilisis et. Quisque in leo malesuada nisl sollicitudin commodo. Nulla vitae consequat ex, at dictum mauris. Aliquam sollicitudin gravida augue, in auctor ligula consequat eget. Nunc mattis turpis vitae dolor sollicitudin, sit amet sollicitudin massa sagittis. In scelerisque elementum erat eu faucibus. Sed consectetur, ipsum eget congue dictum, eros nunc ultricies purus, nec vestibulum elit ante non ex. Donec auctor tristique felis vitae porta. Aenean finibus neque eu magna finibus accumsan. Vestibulum pellentesque turpis nec placerat tempus. Vivamus vel sapien iaculis, posuere leo sit amet, dictum lorem. Donec dignissim varius est eu iaculis. Praesent in dolor lacus. Proin eu ornare ipsum. Donec vulputate risus ac justo malesuada bibendum. Fusce ornare lacus id leo aliquet fermentum. Aliquam venenatis, felis vitae congue rutrum, eros neque auctor velit, ut dictum risus libero a quam. Mauris eu ex est. Cras lobortis nulla vitae lacus ultrices dictum. Nulla non convallis velit. Sed dapibus erat dolor, a lobortis odio ornare vel. Sed ac pharetra metus, eget pulvinar metus. Mauris sit amet finibus magna, vitae rhoncus nulla. Aliquam mi dolor, auctor sagittis pretium et, pretium et lorem. Proin diam elit, interdum eget placerat nec, condimentum ut ex. Duis rutrum, sapien at eleifend ultrices, eros purus varius sem, in pretium quam purus vel turpis.
+          </p>
+          <p class="diamonds">&#9830; &#9830; &#9830;</p>
+        </article>
       </section>
-      <section class="proj-container project3" role="region">
-        <h3>Project 3</h3>
+
+      <section class="proj-container project1" role="region">
+        <h3 class="project-heading">Project 3 Title</h3>
+        <h4 class="specs">Frameworks and languages</h4>
+        <p clas="project-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque mi id nibh sollicitudin, non finibus ante cursus. Nam dictum, eros vitae imperdiet dignissim, nisi dolor finibus quam, vel dignissim tellus ipsum ut sem. Sed bibendum velit eu risus consectetur auctor eu nec ex. Integer pretium nunc finibus bibendum suscipit. Nunc vulputate bibendum quam, sit amet tincidunt sapien mollis ut. Duis tempus sollicitudin leo quis tincidunt. Aliquam erat volutpat.
+        </p>
+        <a href="#"><button class="btn git-link">Code at Github</button></a>
       </section>
-      <section class="proj-container project4" role="region">
-        <h3>Project 4</h3>
+      <section class="proj-container project1" role="region">
+        <h3 class="project-heading">Project 4 Title</h3>
+        <h4 class="specs">Frameworks and languages</h4>
+        <p clas="project-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque mi id nibh sollicitudin, non finibus ante cursus. Nam dictum, eros vitae imperdiet dignissim, nisi dolor finibus quam, vel dignissim tellus ipsum ut sem. Sed bibendum velit eu risus consectetur auctor eu nec ex. Integer pretium nunc finibus bibendum suscipit. Nunc vulputate bibendum quam, sit amet tincidunt sapien mollis ut. Duis tempus sollicitudin leo quis tincidunt. Aliquam erat volutpat.
+        </p>
+        <a href="#"><button class="btn git-link">Code at Github</button></a>
       </section>
-      <section class="proj-container project5" role="region">
-        <h3>Project 5</h3>
+      <section class="proj-container project1" role="region">
+        <h3 class="project-heading">Project 5 Title</h3>
+        <h4 class="specs">Frameworks and languages</h4>
+        <p clas="project-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque mi id nibh sollicitudin, non finibus ante cursus. Nam dictum, eros vitae imperdiet dignissim, nisi dolor finibus quam, vel dignissim tellus ipsum ut sem. Sed bibendum velit eu risus consectetur auctor eu nec ex. Integer pretium nunc finibus bibendum suscipit. Nunc vulputate bibendum quam, sit amet tincidunt sapien mollis ut. Duis tempus sollicitudin leo quis tincidunt. Aliquam erat volutpat.
+        </p>
+        <a href="#"><button class="btn git-link">Code at Github</button></a>
       </section>
     </main>
 
